@@ -11,7 +11,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 1](img_1.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+I used grep command to filter lines that contain "/login". wc -l to count number of filtered lines.
 
 ---
 
@@ -19,7 +20,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 2](img_2.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+Used cut to extract only age section. sort and uniq to remove duplicates. wc -l to count number of lines.
 
 ---
 
@@ -27,7 +29,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 3](img_3.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+Used cut to extract only name section. sort and uniq to remove duplicates. wc -l to count number of lines.
 
 ---
 
@@ -35,7 +38,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 4](img_4.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+Used cut to extract only age section. sort and uniq to remove duplicates. wc -l to count number of lines. sort -r to sort lines in descending order. head -1 to show only the most frequent age (first line).
 
 ---
 
@@ -43,7 +47,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 5](img_5.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+grep command to filter the lines that contain "FAIL". cut to extract username section. uniq -c to count occurences of each username. sort -nr to sort in descending order.
 
 ---
 
@@ -51,7 +56,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 6](img_6.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+grep to filter lines that contain "ok=true". wc -l to count these lines.
 
 ---
 
@@ -59,7 +65,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 7](img_7.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+I used cut command twice to get the level section. sort and uniq -c to count occurences for each level. sort -nr to sort lines in descending order. head -1 to show only the most frequent level.
 
 ---
 
@@ -67,7 +74,8 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 8](img_8.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+I used cut command twice to get the action section. sort and uniq -c to count occurences for each action. sort -nr to sort lines in descending order. head -3 to show top 3 most common actions.
 
 ---
 
@@ -75,6 +83,7 @@ wc command is to count data in a given file. -l parameter is for counting lines.
 
 ![task 9](img_9.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation**
+I used cut command twice to get the user section. sort and uniq to remove duplicates. wc -l to count number of remaining unique values.
 
 ---
